@@ -11,7 +11,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="absCalcPlot_IV.vi" Type="VI" URL="../sub/absCalcPlot_IV.vi"/>
+		<Item Name="analys_meth.ctl" Type="VI" URL="../../../../../Desktop/__fcncfs4.franklin.uga.edu_CHEM/Groups/Smith_G/Photoacoutic Spectroscopy/PAS-CRD/Get Tau/Analysis/analys_meth.ctl"/>
 		<Item Name="crdCalcExtinction.vi" Type="VI" URL="../sub/crd/archive/sub/crdCalcExtinction.vi"/>
+		<Item Name="Get Tau.vi" Type="VI" URL="../../../../../Desktop/__fcncfs4.franklin.uga.edu_CHEM/Groups/Smith_G/Photoacoutic Spectroscopy/PAS-CRD/Get Tau/Analysis/Get Tau.vi"/>
 		<Item Name="laserDiagnose.vi" Type="VI" URL="../sub/laserDiagnose.vi"/>
 		<Item Name="laserDiagnose_IV.vi" Type="VI" URL="../sub/laserDiagnose_IV.vi"/>
 		<Item Name="lasersSetFrequencies.vi" Type="VI" URL="../sub/lasersSetFrequencies.vi"/>
@@ -19,6 +21,7 @@
 		<Item Name="lasersSetFrequencies_IV.vi" Type="VI" URL="../sub/lasersSetFrequencies_IV.vi"/>
 		<Item Name="MultiPAS-III.vi" Type="VI" URL="../MultiPAS-III.vi"/>
 		<Item Name="MultiPAS-IV.vi" Type="VI" URL="../MultiPAS-IV.vi"/>
+		<Item Name="PicoScope2000aClose.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Downloads/Labview ps2000a new/Labview/PicoScope2000a.llb/PicoScope2000aClose.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="SoundHandle.ctl" Type="VI" URL="/&lt;userlib&gt;/WaveIO.llb/SoundHandle.ctl"/>
@@ -86,11 +89,7 @@
 			</Item>
 			<Item Name="absCalcPlot.vi" Type="VI" URL="../sub/absCalcPlot.vi"/>
 			<Item Name="absCalcPlot_III.vi" Type="VI" URL="../sub/absCalcPlot_III.vi"/>
-			<Item Name="analys_meth.ctl" Type="VI" URL="../sub/crd/fit/Analysis/analys_meth.ctl"/>
-			<Item Name="Calculate Tau Error.vi" Type="VI" URL="../sub/crd/fit/Utilities/Calculate Tau Error.vi"/>
-			<Item Name="crd_acquireWaveform.vi" Type="VI" URL="../../../MultiPAS-IV/LabVIEW/crd/sub/crd_acquireWaveform.vi"/>
-			<Item Name="crd_fitTau.vi" Type="VI" URL="../../../MultiPAS-IV/LabVIEW/crd/sub/crd_fitTau.vi"/>
-			<Item Name="crd_processWaveform.vi" Type="VI" URL="../../../MultiPAS-IV/LabVIEW/crd/sub/crd_processWaveform.vi"/>
+			<Item Name="Calculate Tau Error.vi" Type="VI" URL="../../../../../Desktop/__fcncfs4.franklin.uga.edu_CHEM/Groups/Smith_G/Photoacoutic Spectroscopy/PAS-CRD/Get Tau/Utilities/Calculate Tau Error.vi"/>
 			<Item Name="fftGenX.vi" Type="VI" URL="../sub/fftGenX.vi"/>
 			<Item Name="fftGetMags.vi" Type="VI" URL="../sub/fftGetMags.vi"/>
 			<Item Name="fftGetMags_IV.vi" Type="VI" URL="../sub/fftGetMags_IV.vi"/>
@@ -98,7 +97,6 @@
 			<Item Name="fftGetMax.vi" Type="VI" URL="../sub/fftGetMax.vi"/>
 			<Item Name="filterCreateMsg.vi" Type="VI" URL="../sub/filterCreateMsg.vi"/>
 			<Item Name="freqSet.vi" Type="VI" URL="../sub/freqSet.vi"/>
-			<Item Name="Get Tau.vi" Type="VI" URL="../sub/crd/fit/Analysis/Get Tau.vi"/>
 			<Item Name="laserDiagnose_III.vi" Type="VI" URL="../sub/laserDiagnose_III.vi"/>
 			<Item Name="laserGetCurrent.vi" Type="VI" URL="../sub/laserGetCurrent.vi"/>
 			<Item Name="laserGetPower.vi" Type="VI" URL="../sub/laserGetPower.vi"/>
@@ -112,16 +110,20 @@
 			<Item Name="pdNormalize.vi" Type="VI" URL="../sub/pdNormalize.vi"/>
 			<Item Name="pdNormalize_III.vi" Type="VI" URL="../sub/pdNormalize_III.vi"/>
 			<Item Name="pdNormalize_IV.vi" Type="VI" URL="../sub/pdNormalize_IV.vi"/>
-			<Item Name="PicoErrorHandler.vi" Type="VI" URL="../../../MultiPAS-IV/LabVIEW/crd/pico/PicoScope.llb/PicoErrorHandler.vi"/>
-			<Item Name="PicoScope2000aClose.vi" Type="VI" URL="../../../MultiPAS-IV/LabVIEW/crd/pico/PicoScope2000a.llb/PicoScope2000aClose.vi"/>
-			<Item Name="PicoScope2000aGetBlock.vi" Type="VI" URL="../../../MultiPAS-IV/LabVIEW/crd/pico/PicoScope2000a.llb/PicoScope2000aGetBlock.vi"/>
-			<Item Name="PicoScope2000aGetTimebase2.vi" Type="VI" URL="../../../MultiPAS-IV/LabVIEW/crd/pico/PicoScope2000a.llb/PicoScope2000aGetTimebase2.vi"/>
-			<Item Name="PicoScope2000aOpen.vi" Type="VI" URL="../../../MultiPAS-IV/LabVIEW/crd/pico/PicoScope2000a.llb/PicoScope2000aOpen.vi"/>
-			<Item Name="PicoScope2000aSettings.vi" Type="VI" URL="../../../MultiPAS-IV/LabVIEW/crd/pico/PicoScope2000a.llb/PicoScope2000aSettings.vi"/>
-			<Item Name="PicoScope2000aUnitInfo.vi" Type="VI" URL="../../../MultiPAS-IV/LabVIEW/crd/pico/PicoScope2000a.llb/PicoScope2000aUnitInfo.vi"/>
-			<Item Name="PicoScopeAdcToVolts.vi" Type="VI" URL="../../../MultiPAS-IV/LabVIEW/crd/pico/PicoScope.llb/PicoScopeAdcToVolts.vi"/>
-			<Item Name="PicoScopeVoltsToAdc.vi" Type="VI" URL="../../../MultiPAS-IV/LabVIEW/crd/pico/PicoScope.llb/PicoScopeVoltsToAdc.vi"/>
-			<Item Name="PicoStatus.vi" Type="VI" URL="../../../MultiPAS-IV/LabVIEW/crd/pico/PicoScope.llb/PicoStatus.vi"/>
+			<Item Name="picoCoAdd.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Desktop/MP/LabVIEW/crd/sub/picoCoAdd.vi"/>
+			<Item Name="PicoErrorHandler.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Downloads/Labview ps2000a new/Labview/PicoScope/PicoErrorHandler.vi"/>
+			<Item Name="picoExtractSettings.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Desktop/MP/LabVIEW/crd/sub/picoExtractSettings.vi"/>
+			<Item Name="picoGetTimebase.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Desktop/MP/LabVIEW/crd/sub/picoGetTimebase.vi"/>
+			<Item Name="picoGetValues.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Desktop/MP/LabVIEW/crd/sub/picoGetValues.vi"/>
+			<Item Name="picoOpen.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Desktop/MP/LabVIEW/crd/sub/picoOpen.vi"/>
+			<Item Name="picoReady.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Desktop/MP/LabVIEW/crd/sub/picoReady.vi"/>
+			<Item Name="picoRunBlock.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Desktop/MP/LabVIEW/crd/sub/picoRunBlock.vi"/>
+			<Item Name="PicoScopeVoltsToAdc.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Downloads/Labview ps2000a new/Labview/PicoScope/PicoScopeVoltsToAdc.vi"/>
+			<Item Name="picoSetChannel.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Desktop/MP/LabVIEW/crd/sub/picoSetChannel.vi"/>
+			<Item Name="picoSetMem.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Desktop/MP/LabVIEW/crd/sub/picoSetMem.vi"/>
+			<Item Name="PicoStatus.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Downloads/Labview ps2000a new/Labview/PicoScope/PicoStatus.vi"/>
+			<Item Name="picoToVolts.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Desktop/MP/LabVIEW/crd/sub/picoToVolts.vi"/>
+			<Item Name="picoTrigger.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Desktop/MP/LabVIEW/crd/sub/picoTrigger.vi"/>
 			<Item Name="PS2000a.dll" Type="Document" URL="PS2000a.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -145,7 +147,6 @@
 			<Item Name="saveTimeSeries_IV.vi" Type="VI" URL="../sub/saveTimeSeries_IV.vi"/>
 			<Item Name="saveUniqueName.vi" Type="VI" URL="../sub/saveUniqueName.vi"/>
 			<Item Name="teensySweepFreq.vi" Type="VI" URL="../sub/teensySweepFreq.vi"/>
-			<Item Name="visarc" Type="Document" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/visarc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="MultiPAS-III" Type="EXE">
