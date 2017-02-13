@@ -90,7 +90,9 @@
 			</Item>
 			<Item Name="absCalcPlot.vi" Type="VI" URL="../sub/absCalcPlot.vi"/>
 			<Item Name="absCalcPlot_III.vi" Type="VI" URL="../sub/absCalcPlot_III.vi"/>
+			<Item Name="analys_meth.ctl" Type="VI" URL="../sub/crd/fit/Analysis/analys_meth.ctl"/>
 			<Item Name="Calculate Tau Error.vi" Type="VI" URL="../../../../../Desktop/__fcncfs4.franklin.uga.edu_CHEM/Groups/Smith_G/Photoacoutic Spectroscopy/PAS-CRD/Get Tau/Utilities/Calculate Tau Error.vi"/>
+			<Item Name="Calculate Tau Error.vi" Type="VI" URL="../sub/crd/fit/Utilities/Calculate Tau Error.vi"/>
 			<Item Name="fftGenX.vi" Type="VI" URL="../sub/fftGenX.vi"/>
 			<Item Name="fftGetMags.vi" Type="VI" URL="../sub/fftGetMags.vi"/>
 			<Item Name="fftGetMags_IV.vi" Type="VI" URL="../sub/fftGetMags_IV.vi"/>
@@ -98,6 +100,7 @@
 			<Item Name="fftGetMax.vi" Type="VI" URL="../sub/fftGetMax.vi"/>
 			<Item Name="filterCreateMsg.vi" Type="VI" URL="../sub/filterCreateMsg.vi"/>
 			<Item Name="freqSet.vi" Type="VI" URL="../sub/freqSet.vi"/>
+			<Item Name="Get Tau.vi" Type="VI" URL="../sub/crd/fit/Analysis/Get Tau.vi"/>
 			<Item Name="laserDiagnose_III.vi" Type="VI" URL="../sub/laserDiagnose_III.vi"/>
 			<Item Name="laserGetCurrent.vi" Type="VI" URL="../sub/laserGetCurrent.vi"/>
 			<Item Name="laserGetPower.vi" Type="VI" URL="../sub/laserGetPower.vi"/>
@@ -111,20 +114,21 @@
 			<Item Name="pdNormalize.vi" Type="VI" URL="../sub/pdNormalize.vi"/>
 			<Item Name="pdNormalize_III.vi" Type="VI" URL="../sub/pdNormalize_III.vi"/>
 			<Item Name="pdNormalize_IV.vi" Type="VI" URL="../sub/pdNormalize_IV.vi"/>
-			<Item Name="picoCoAdd.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Desktop/MP/LabVIEW/crd/sub/picoCoAdd.vi"/>
-			<Item Name="PicoErrorHandler.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Downloads/Labview ps2000a new/Labview/PicoScope/PicoErrorHandler.vi"/>
-			<Item Name="picoExtractSettings.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Desktop/MP/LabVIEW/crd/sub/picoExtractSettings.vi"/>
-			<Item Name="picoGetTimebase.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Desktop/MP/LabVIEW/crd/sub/picoGetTimebase.vi"/>
-			<Item Name="picoGetValues.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Desktop/MP/LabVIEW/crd/sub/picoGetValues.vi"/>
-			<Item Name="picoOpen.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Desktop/MP/LabVIEW/crd/sub/picoOpen.vi"/>
-			<Item Name="picoReady.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Desktop/MP/LabVIEW/crd/sub/picoReady.vi"/>
-			<Item Name="picoRunBlock.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Desktop/MP/LabVIEW/crd/sub/picoRunBlock.vi"/>
-			<Item Name="PicoScopeVoltsToAdc.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Downloads/Labview ps2000a new/Labview/PicoScope/PicoScopeVoltsToAdc.vi"/>
-			<Item Name="picoSetChannel.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Desktop/MP/LabVIEW/crd/sub/picoSetChannel.vi"/>
-			<Item Name="picoSetMem.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Desktop/MP/LabVIEW/crd/sub/picoSetMem.vi"/>
+			<Item Name="picoCoAdd.vi" Type="VI" URL="../sub/crd/sub/picoCoAdd.vi"/>
+			<Item Name="PicoErrorHandler.vi" Type="VI" URL="../sub/crd/pico/PicoScope.llb/PicoErrorHandler.vi"/>
+			<Item Name="picoExtractSettings.vi" Type="VI" URL="../sub/crd/sub/picoExtractSettings.vi"/>
+			<Item Name="picoGetTimebase.vi" Type="VI" URL="../sub/crd/sub/picoGetTimebase.vi"/>
+			<Item Name="picoGetValues.vi" Type="VI" URL="../sub/crd/sub/picoGetValues.vi"/>
+			<Item Name="picoOpen.vi" Type="VI" URL="../sub/crd/sub/picoOpen.vi"/>
+			<Item Name="picoReady.vi" Type="VI" URL="../sub/crd/sub/picoReady.vi"/>
+			<Item Name="picoRunBlock.vi" Type="VI" URL="../sub/crd/sub/picoRunBlock.vi"/>
+			<Item Name="PicoScope2000aClose.vi" Type="VI" URL="../sub/crd/pico/PicoScope2000a.llb/PicoScope2000aClose.vi"/>
+			<Item Name="PicoScopeVoltsToAdc.vi" Type="VI" URL="../sub/crd/pico/PicoScope.llb/PicoScopeVoltsToAdc.vi"/>
+			<Item Name="picoSetChannel.vi" Type="VI" URL="../sub/crd/sub/picoSetChannel.vi"/>
+			<Item Name="picoSetMem.vi" Type="VI" URL="../sub/crd/sub/picoSetMem.vi"/>
 			<Item Name="PicoStatus.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Downloads/Labview ps2000a new/Labview/PicoScope/PicoStatus.vi"/>
-			<Item Name="picoToVolts.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Desktop/MP/LabVIEW/crd/sub/picoToVolts.vi"/>
-			<Item Name="picoTrigger.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Desktop/MP/LabVIEW/crd/sub/picoTrigger.vi"/>
+			<Item Name="picoToVolts.vi" Type="VI" URL="../sub/crd/sub/picoToVolts.vi"/>
+			<Item Name="picoTrigger.vi" Type="VI" URL="../sub/crd/sub/picoTrigger.vi"/>
 			<Item Name="PS2000a.dll" Type="Document" URL="PS2000a.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -148,7 +152,6 @@
 			<Item Name="saveTimeSeries_IV.vi" Type="VI" URL="../sub/saveTimeSeries_IV.vi"/>
 			<Item Name="saveUniqueName.vi" Type="VI" URL="../sub/saveUniqueName.vi"/>
 			<Item Name="teensySweepFreq.vi" Type="VI" URL="../sub/teensySweepFreq.vi"/>
-			<Item Name="visarc" Type="Document" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/visarc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="MultiPAS-III" Type="EXE">
@@ -375,6 +378,42 @@
 				<Property Name="TgtF_productName" Type="Str">MultiPAS-IV2</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{9CC628E0-6676-47A2-9553-258CE3527DF8}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">MultiPAS-IV.exe</Property>
+			</Item>
+			<Item Name="MultiPAS-IV3" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{BCE62587-34B1-4EF3-885E-F3EA0253C491}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{AED2786A-24F2-4B68-B317-C971F27C53E6}</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.Microsoft.com</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{F07E0ECD-1B0F-478C-A9D8-08D4CA1E3F7F}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">MultiPAS-IV3</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/MultiPAS-IV3</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{854C53D2-2683-443F-A84C-57BECC7E426A}</Property>
+				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/MultiPAS-IV3/Application.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/MultiPAS-IV3/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CA2CA7FC-8484-4884-B2BA-58AA8F7B9914}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MultiPAS-IV.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Microsoft</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">MultiPAS-IV3</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_internalName" Type="Str">MultiPAS-IV3</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 Microsoft</Property>
+				<Property Name="TgtF_productName" Type="Str">MultiPAS-IV3</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{42B79641-B075-4D3A-A064-AD8C0C3E0368}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
 			</Item>
 			<Item Name="MultiPAS-IVA" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
