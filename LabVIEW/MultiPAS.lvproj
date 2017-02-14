@@ -20,7 +20,7 @@
 		<Item Name="lasersSetFrequencies_IV.vi" Type="VI" URL="../sub/lasersSetFrequencies_IV.vi"/>
 		<Item Name="MultiPAS-III.vi" Type="VI" URL="../MultiPAS-III.vi"/>
 		<Item Name="MultiPAS-IV.vi" Type="VI" URL="../MultiPAS-IV.vi"/>
-		<Item Name="PicoScope2000aClose.vi" Type="VI" URL="../../../../../Desktop/C/Users/MultiPAS-UV/Downloads/Labview ps2000a new/Labview/PicoScope2000a.llb/PicoScope2000aClose.vi"/>
+		<Item Name="PicoScope2000aClose.vi" Type="VI" URL="../sub/crd/pico/PicoScope2000a.llb/PicoScope2000aClose.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="SoundHandle.ctl" Type="VI" URL="/&lt;userlib&gt;/WaveIO.llb/SoundHandle.ctl"/>
@@ -410,6 +410,47 @@
 				<Property Name="TgtF_productName" Type="Str">MultiPAS-IV3</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{42B79641-B075-4D3A-A064-AD8C0C3E0368}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+			</Item>
+			<Item Name="MultiPAS-IV4" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{05F719EF-F867-4AD8-86F0-71731A75F0E9}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{7171AA38-CAE0-41DB-8DE0-FE4389D019D6}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{85AD371E-73FD-4B01-9916-2EDE916491CD}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">MultiPAS-IV4</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/MultiPAS-IV/B</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{F510CDAA-3649-40F1-82C5-23842E1F7945}</Property>
+				<Property Name="Destination[0].destName" Type="Str">MultiPAS-IV.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/MultiPAS-IV/B/MultiPAS-IV.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/MultiPAS-IV/B/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FC703ABC-559D-4EA3-8375-87701EE73D45}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MultiPAS-IV.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/absCalcPlot_IV.vi</Property>
+				<Property Name="Source[2].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[2].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">University of Georgia</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">MultiPAS-IV4</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_internalName" Type="Str">MultiPAS-IV4</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 Al Fischer | Smith Lab | UGA</Property>
+				<Property Name="TgtF_productName" Type="Str">MultiPAS-IV4</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{32A68331-F12B-4ED1-98E7-C3CB4BAFF508}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">MultiPAS-IV.exe</Property>
 			</Item>
 			<Item Name="MultiPAS-IVA" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
