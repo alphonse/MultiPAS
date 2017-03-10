@@ -121,26 +121,25 @@
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="MultiPAS-III" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{A7993150-4203-4C23-8F72-73A1D84E64E3}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{3EC42572-900B-4B59-8A83-FB2C2DF66C9A}</Property>
-				<Property Name="App_winsec.description" Type="Str">http://www.Microsoft.com</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{C5B9D448-0139-41DC-AC44-316E7702BFF1}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{D621BBD5-021D-4D78-88FD-0A9151D6428E}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{E77BD3A9-C487-4F71-BDEA-4FD3D485E063}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{1129EDB3-63C4-464A-8E60-8C486BD03916}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">MultiPAS-III</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/MultiPAS-III</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{047751EC-5132-4E74-920B-737C626E41CE}</Property>
-				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/MultiPAS-III/Application.exe</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{03507B2B-283F-4400-AAD6-BBFE9BD593EB}</Property>
+				<Property Name="Destination[0].destName" Type="Str">MultiPAS-III.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/MultiPAS-III/MultiPAS-III.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/MultiPAS-III/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3FDF3ECD-D218-4AF3-BEF7-FEE8077A6DDE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{805A1F2D-5F14-4EB7-97D2-415877D22780}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MultiPAS-III.vi</Property>
@@ -154,10 +153,10 @@
 				<Property Name="TgtF_fileDescription" Type="Str">MultiPAS-III</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">MultiPAS-III</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © Al Fischer | Smith Lab | University of Georgia</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 Al Fischer | Smith Lab | UGA</Property>
 				<Property Name="TgtF_productName" Type="Str">MultiPAS-III</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{40BFAFB6-3671-4E49-BE3C-6AAB56EB1B3D}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{8A9EC411-172E-4158-BE43-EA9B8C039D55}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">MultiPAS-III.exe</Property>
 			</Item>
 		</Item>
 	</Item>
