@@ -10,9 +10,9 @@
   2016-09-01
 */
 
-int bluePin = 3;  // FTM2
-int greenPin = 25; // FTM0
-int redPin = 23;    // FTM1
+int L1pin = 3;  // FTM2
+int L2pin = 25; // FTM0
+int L3pin = 23;    // FTM1
 
 int vPin = 4;
 int i;
@@ -22,10 +22,12 @@ String inCharStr;
 void setup() {
   Serial.begin(9600);
   analogWriteResolution(12); // provides better resolution on duty cycle
-  setupPin(bluePin, 1368, 4095);
-  setupPin(greenPin, 1372, 4095);
-  setupPin(redPin, 1370, 4095);
+  setupPin(L1pin, 1368, 4095);
+  setupPin(L2pin, 1372, 4095);
+  setupPin(L3pin, 1370, 4095);
   pinMode(vPin, OUTPUT);
+  pinMode(13, OUTPUT);
+  digitalWrite(13, HIGH);
 }
 
 void loop()
@@ -37,10 +39,10 @@ void loop()
   }
 
   if (i > 0) inCharStr = String(inChar);
-  if (inCharStr.startsWith("b.")) setFreq(inCharStr, bluePin);
-  if (inCharStr.startsWith("g.")) setFreq(inCharStr, greenPin);
-  if (inCharStr.startsWith("r.")) setFreq(inCharStr, redPin);
-  if (inCharStr.startsWith("s.")) sweep(inCharStr, bluePin);
+  if (inCharStr.startsWith("b.")) setFreq(inCharStr, L1pin);
+  if (inCharStr.startsWith("g.")) setFreq(inCharStr, L2pin);
+  if (inCharStr.startsWith("r.")) setFreq(inCharStr, L3pin);
+  if (inCharStr.startsWith("s.")) sweep(inCharStr, L2pin);
   if (inCharStr.startsWith("v.")) vSwitch(inCharStr, vPin);
 
   i = 0;
@@ -73,7 +75,9 @@ void sweep(String frequncies, int pin) {
   for (int n = 0; n <= (endFreq - startFreq); n++) {
     analogWriteFrequency(pin, (startFreq + n));
     analogWrite(pin, 4095 / 2);
+    digitalWrite(13, LOW);
     delay(2000);
+    digitalWrite(13, HIGH);
   }
 }
 
