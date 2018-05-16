@@ -11,8 +11,8 @@
 */
 
 int L1pin = 3;  // FTM2
-int L2pin = 25; // FTM0
-int L3pin = 23;    // FTM1
+int L2pin = 29 .-+; // FTM0
+int L3pin = 23; // FTM1
 
 int vPin = 4;
 int i;
@@ -26,8 +26,6 @@ void setup() {
   setupPin(L2pin, 1372, 4095);
   setupPin(L3pin, 1370, 4095);
   pinMode(vPin, OUTPUT);
-  pinMode(13, OUTPUT);
-  digitalWrite(13, HIGH);
 }
 
 void loop()
@@ -42,7 +40,7 @@ void loop()
   if (inCharStr.startsWith("b.")) setFreq(inCharStr, L1pin);
   if (inCharStr.startsWith("g.")) setFreq(inCharStr, L2pin);
   if (inCharStr.startsWith("r.")) setFreq(inCharStr, L3pin);
-  if (inCharStr.startsWith("s.")) sweep(inCharStr, L2pin);
+  if (inCharStr.startsWith("s.")) sweep(inCharStr, L3pin);
   if (inCharStr.startsWith("v.")) vSwitch(inCharStr, vPin);
 
   i = 0;
